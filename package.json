@@ -2,7 +2,7 @@
   "name": "front-starwars",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://julian-lop.github.io/pruebaStarWars-OnClick/",
+  "homepage": "https://julian-lop.github.io/pruebaStarWarsDeploy/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

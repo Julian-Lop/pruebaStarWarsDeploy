@@ -45,10 +45,10 @@ function App() {
         <Route path='/*' element={<Navbar/>}/>
       </Routes>  
       <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
-        <Route exact path='/films' element={<Films/>}/>
-        <Route exact path='/starships' element={<><Pagination/><Starships/></>}/>
-        <Route exact path='/vehicles' element={<><Pagination/><Vehicles/></>}/>
+        <Route path='/*' element={<Home/>}></Route>
+        <Route path='/films' element={<Films/>}/>
+        <Route path='/starships' element={<><Pagination/><Starships/></>}/>
+        <Route path='/vehicles' element={<><Pagination/><Vehicles/></>}/>
       </Routes>
     </BrowserRouter>
   );
